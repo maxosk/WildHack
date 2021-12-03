@@ -4,11 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8099afb5-3565-4dd0-8588-fa4b31e2958c" name="Changes" comment="" />
+    <list default="true" id="8099afb5-3565-4dd0-8588-fa4b31e2958c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/Questionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/repos/QuestionnaireRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/QuestionnaireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/jwt/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/jwt/JwtProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/DocController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/АuthenticationRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/Measurement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/repos/MeasurementRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/repos/MessageRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/repos/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/MeasurementInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/PhoneRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/PhoneRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/RegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/MailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/MeasurementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <list id="80e3cff0-0754-49c1-b409-b71c10370e11" name="Changes by mihai" comment="">
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/MainController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.4.5/spring-security-core-5.4.5-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -20,22 +75,76 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Inspector" value="true" />
-        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/config/WebSecurityConfig.java">
+      <ranges>
+        <range start1="2" end1="3" start2="2" end2="2" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="8" end1="9" start2="7" end2="7" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="15" end1="18" start2="13" end2="13" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="19" end1="20" start2="14" end2="14" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="21" end1="28" start2="15" end2="15" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="33" end1="35" start2="20" end2="21" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="38" end1="47" start2="24" end2="26" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="51" end1="51" start2="30" end2="35" changelist="80e3cff0-0754-49c1-b409-b71c10370e11" />
+        <range start1="57" end1="57" start2="41" end2="42" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="58" end1="58" start2="43" end2="48" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="59" end1="67" start2="49" end2="50" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="68" end1="70" start2="51" end2="51" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="71" end1="86" start2="52" end2="55" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="89" end1="94" start2="58" end2="59" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/MainController.java">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="4" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="6" end1="8" start2="5" end2="5" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="16" end1="16" start2="13" end2="14" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="23" end1="23" start2="21" end2="23" changelist="80e3cff0-0754-49c1-b409-b71c10370e11" />
+        <range start1="24" end1="25" start2="24" end2="25" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="26" end1="28" start2="26" end2="26" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="29" end1="31" start2="27" end2="27" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="32" end1="35" start2="28" end2="32" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="37" end1="46" start2="34" end2="34" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="47" end1="49" start2="35" end2="35" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="50" end1="52" start2="36" end2="36" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="53" end1="61" start2="37" end2="37" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="62" end1="64" start2="38" end2="38" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="65" end1="68" start2="39" end2="39" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="69" end1="71" start2="40" end2="40" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="72" end1="73" start2="41" end2="41" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+        <range start1="74" end1="85" start2="42" end2="42" changelist="8099afb5-3565-4dd0-8588-fa4b31e2958c" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="21m6FPh2lrkU5wYrk8PUHFrCvhy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tanometr-app/Server/Server-tanometr" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.tanometr.service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ServingWebContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -54,11 +163,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638533810713</updated>
-      <workItem from="1638533812914" duration="1579000" />
+      <workItem from="1638533812914" duration="3091000" />
+      <workItem from="1638555227813" duration="17800000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/ApiController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/PhoneRequest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/rest/PhoneRequest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/Server-tanometr/src/main/java/com/tanometr/controller/ApiController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

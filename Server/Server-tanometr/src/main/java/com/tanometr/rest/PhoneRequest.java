@@ -9,8 +9,13 @@ import java.util.List;
 @Data
 public class PhoneRequest {
     @NotEmpty
-    private int id;
-    List<MeasurementInfoRequest> measurements;
+    private Integer id;
+private String firstname;
+private String middlename;
+private String lastname;
+private String password;
+private String username;
+
     //private int bpu;
 
 }
