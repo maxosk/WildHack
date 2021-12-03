@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #27292B;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #E9ECEF;
+}
+
+.container {
+  width: 1176px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input {
+  background: #F7F8FA;
+  border: 1px solid #F0F2F5;
+  border-radius: 12px;
+  color: #8891A3;
+  padding: 15px 0 15px 15px;
+  width: 361px;
+}
+
+.button {
+  display: block;
+  width: 376px;
+  background: #0080F6;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  padding: 16px 0;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.title-1 {
+  font-size: 29px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.title-2 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+}
+
+.sign-in {
+  background: #fff;
+  border: 1px solid #F0F2F5;
+  border-radius: 16px;
+  padding: 40px 24px;
+  width: 424px;
+  margin: 120px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sign-in__title {
+  padding-bottom: 32px;
+}
+.sign-in__form__input {
+  margin-bottom: 16px;
+}
+.sign-in__form__input:focus {
+  outline: none;
+  border: 1px solid #0080F6;
+  border-radius: 8px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #27292B;
+}
+.sign-in__form__input:empty {
+  color: #27292B;
+}
+.sign-in__form__button:hover {
+  background: #0077E5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.sign-in__form__button:active {
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}

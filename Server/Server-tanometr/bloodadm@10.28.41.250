@@ -1,0 +1,80 @@
+version: '3.1'
+
+
+#services:
+#  app:
+#    image: 'docker-spring-boot1'
+#    build:
+#      context: .
+#    container_name: docker-spring-boot1
+#    depends_on:
+#      - pg
+#    environment:
+#       SPRING_DATASOURCE_URL: jdbc:postgres://pg:5432/tanometr
+#       SPRING_DATASOURCE_USERNAME: postgres
+#       SPRING_DATASOURCE_PASSWORD: admin
+#       SPRING_JPA_HIBERNATE_DDL_AUTO: none
+#
+#  pg:
+#    image: postgres:13.4
+#    ports:
+#      - "5432:5432"
+#    container_name: pg
+#    restart: always
+#    environment:
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_PASSWORD=admin
+#      - POSTGRES_DB=tanometr
+#    volumes:
+#      - ./src/main/java/com/tanometr/db/migration:/docker-entrypoint-initdb.d
+#
+
+
+
+services:
+
+  web:
+    image: nginx
+    volumes:
+      - ./templates:/etc/nginx/templates
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_HOST=foobar.com
+      - NGINX_PORT=80
+  app:
+    container_name: spring-boot-docker1
+    image: spring-boot-docker1
+
+    build: ./
+
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://pg:5432/tanometr
+    ports:
+      - "8080:443"
+    depends_on:
+      - pg
+
+
+  pg:
+      image: postgres:13.4
+      ports:
+        - "5432:5432"
+      container_name: pg
+      restart: always
+      environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=admin
+        - POSTGRES_DB=tanometr
+      volumes:
+        - ./src/main/java/com/tanometr/db/migration:/docker-entrypoint-initdb.d
+
+#  pg:
+#    container_name: pg
+#    image: postgres
+#    ports:
+#      - "5432:5432"
+#    environment:
+#      - POSTGRES_PASSWORD=admin
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_DB=tanometr
