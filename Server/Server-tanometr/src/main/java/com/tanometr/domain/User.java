@@ -13,6 +13,7 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+    private Integer individual_id;
     private String firstname;
     private String lastname;
     private String middlename;
@@ -30,6 +31,14 @@ public class User implements UserDetails {
     public void setQuestionnaire(Questionnaire questionnaire){
         this.questionnaire = questionnaire;
     }*/
+
+    public Integer getIndividual_id() {
+        return individual_id;
+    }
+
+    public void setIndividual_id(Integer individual_id) {
+        this.individual_id = individual_id;
+    }
 
     public Integer getId() {
         return id;

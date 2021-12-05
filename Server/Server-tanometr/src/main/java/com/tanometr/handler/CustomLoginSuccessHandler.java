@@ -38,7 +38,7 @@ public class CustomLoginSuccessHandler extends SimpleUrlAuthenticationSuccessHan
             roles.add(a.getAuthority());
         }
         System.out.println(roles);
-        //check user role and decide the redirect URL
+        //check user.ftl role and decide the redirect URL
         if (roles.contains("ADMIN")) {
             url = "/admin";
         }

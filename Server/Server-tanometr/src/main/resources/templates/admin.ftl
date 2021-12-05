@@ -205,7 +205,7 @@
 
                             <#--
                                                         <td class="plates__column-1__plate-1__sheet__row__item">
-                                                            <a href="/user/${patient.id}" class="plates__column-1__plate-1__sheet__row__item__link">
+                                                            <a href="/user.ftl/${patient.id}" class="plates__column-1__plate-1__sheet__row__item__link">
                                                                 <img src="/static/img/Edit.svg" alt="Редактировать" class="plates__column-1__plate-1__sheet__row__item__link__img">
                                                             </a>
                                                         </td>

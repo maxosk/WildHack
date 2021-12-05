@@ -40,7 +40,7 @@ ${message!" "}
 
 
 <#--<@c.page>-->
-<#-- Add new user-->
+<#-- Add new user.ftl-->
 <#-- ${message!" "}-->
 <#-- <@l.login "/registration" />-->
 <#--</@c.page>-->

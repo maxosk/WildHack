@@ -13,6 +13,6 @@ public class TestSecurityController {
 
     @GetMapping("/user/get")
     public String getUser() {
-        return "Hi user";
+        return "Hi user.ftl";
     }
 }

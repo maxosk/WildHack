@@ -42,9 +42,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
 
                 .authorizeRequests()
-                .antMatchers("/**", /*"/registration",*/ "/static/**", "/activate/*","/auth","/api").permitAll()
+                .antMatchers("/**", /*"/registration",*/ "/static/**", "/activate/*","/auth","/api","/login","/list").permitAll()
 
-                //.and().csrf().ignoringAntMatchers("/user/**")
+                //.and().csrf().ignoringAntMatchers("/user.ftl/**")
 
             ;
 

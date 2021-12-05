@@ -33,7 +33,7 @@
 
 
 <#--
-            <a href="/registration">Add new user</a>
+            <a href="/registration">Add new user.ftl</a>
 -->
         </form>
     </section>

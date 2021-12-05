@@ -17,15 +17,15 @@ public class Questionnaire implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private Integer user_id;
-    private Date time;
-    {
+    private String time;
+   /* {
         try {
             time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSSSS")
                     .parse("2012-07-10 14:58:00.000000");
         } catch (ParseException e) {
             e.printStackTrace();
         }
-    }
+    }*/
     private String e_mail;
     private String phone_number;
     private String socialnetwork;
@@ -42,6 +42,7 @@ public class Questionnaire implements Serializable {
     private String action_in_conflict;
 
     private String about_your_soft_skills_check_boxes_first;
+    @Column(columnDefinition="varchar(1000)")
     private String about_your_hard_skills_check_boxes_first;
 
     private String creative_material; //WTF СУКА БЛАТЬ
@@ -50,13 +51,13 @@ public class Questionnaire implements Serializable {
     private Boolean consent_to_data_collection;
 
     /*@OneToOne(optional = false, mappedBy = "questionnaire")
-    public User user;
+    public User user.ftl;
 
     public User getUser(){
-        return user;
+        return user.ftl;
     }
-    public void setUser(User user){
-        this.user = user;
+    public void setUser(User user.ftl){
+        this.user.ftl = user.ftl;
     }*/
 
 
@@ -76,11 +77,11 @@ public class Questionnaire implements Serializable {
         this.user_id = user_id;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
